@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Fitness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('img/abs.jpg');
+        color: white;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .container{
+        margin: 106px 154px;
+        padding: 53px 133px;
+        border: 5px solid;
+        width: 23%;
+        border-radius: 27px
+    }
+    .btn{
+        margin: 0px 5px;
+        background-color: black;
+        color: white;
+        padding: 23px 38px;
+        font-size: 22px;
+        border-radius: 30px;
+        cursor: pointer;
+        border-style: none;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    .btn:hover{
+        background-color: rgb(105, 96, 91);
+    }
+    .left div{
+        text-align: center;
+        font-size: 30px;
+    }
+    .left img{
+        align-self: center;
+        width: 70px;
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 75px;
+    }
+    .container btn{
+        margin-top: 20px;
+
+    }
+    .mid{
+        display: block;
+        width: 39%;
+        margin: 32px auto;
+    }
+    .right{
+        position: absolute;
+        top: 20px;
+        right: 24px;;
+        display: inline-block;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: rgb(105, 96, 91);
+    }
+    .container h1{
+        text-align: center;
+        font-size: 55px;
+    }
+    .container button{
+        display: block;
+        margin: 5px -45px;
+        width: 121%
+    }
+    .form-group input{
+        display: block;
+        margin: 17px -47px;
+        padding: 10px 5px;
+        font-size: 26px;
+        border-radius: 20px;
+        text-align: center;
+        width: 564px;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/p.jpg" alt="">
+            <div>Fitness Hub</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Centre</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Contact Us Now</button>
+            <button class="btn">Sign Up</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Now !!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Name Here">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Gender Here">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Phone No Here">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter City Here">
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+        </form>
+    </div>
+</body>
+</html>
